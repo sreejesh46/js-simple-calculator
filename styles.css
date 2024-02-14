@@ -1,0 +1,76 @@
+@import url('https://fonts.cdnfonts.com/css/digital-7-mono');
+@import url('https://fonts.cdnfonts.com/css/eurostile-extended');
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(41, 40, 40);
+}
+#calculator{
+    background-color: rgb(41, 40, 40);
+    border-radius: 15px;
+    max-width: 400px;
+    overflow: hidden;
+}
+h1{
+    font-family: 'Eurostile Extended', sans-serif;
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+    padding-bottom: 1px;
+    padding-top: 5px;
+    margin: 0;
+    background-color: rgb(49, 46, 46);
+    border-bottom: 0.1px solid rgb(32, 32, 32);
+}
+#display{
+    width: 100%;
+    padding-top: -39px;
+    padding-right: 100%;
+    padding-left: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    color: white;
+    background-color: rgb(49, 46, 46);
+    font-family: 'Digital-7 Mono', sans-serif;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgb(27, 25, 25);
+    gap: 10px;
+    padding: 20px;
+    font-family: 'Digital-7 Mono', sans-serif;
+    font-family: 'Digital-7', sans-serif;
+    font-family: 'Digital-7 Italic', sans-serif;
+}
+button{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    border: none;
+    background-color:hsl(0, 0%, 25%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(0, 0%, 44%);
+}
+button:active{
+    background-color: hsl(0, 0%, 60%);
+
+}
+.operator-btn{
+    background-color: hsl(35, 100%, 55%);
+}
+.operator-btn:hover{
+    background-color: hsl(35, 100%, 65%);
+}
+.operator-btn:active{
+    background-color: hsl(35, 100%, 75%);
+}
